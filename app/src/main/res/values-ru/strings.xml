@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Сброс циклов батареи</string>
+    <string name="install">Установить</string>
+    <string name="uninstall">Удалить</string>
+    <string name="uninstall_success">Успешно удалено %1$s</string>
+    <string name="uninstall_failure">Не удалось удалить %1$s</string>
+    <string name="uninstall_error">Ошибка: %1$s</string>
+    <string name="apk_install_success">Успешно установлен %1$s</string>
+    <string name="apk_install_error">Не удалось установить %1$s</string>
+    <string name="apk_move_error">Ошибка при перемещении APK. Код ошибки: %1$d</string>
+    <string name="shizuku_not_available">Shizuku недоступен</string>
+    <string name="adb_command_error">Ошибка выполнения команды ADB: %1$s</string>
+    <string name="error_apk_not_found">Ошибка: APK не найден.</string>
+    <string name="shizuku_switcher">Сервис Shizuku</string>
+    <string name="shizuku_not_running">Shizuku не запущен</string>
+    <string name="permissions_granted">Разрешение предоставлено</string>
+    <string name="permissions_denied">Разрешение не предоставлено</string>
+    <string name="shizuku_or_permission_missing">Сервис Shizuku отключен или разрешение не предоставлено</string>
+    <string name="launch">Запустить</string>
+    <string name="app_not_found_error">Ошибка: приложение не установлено</string>
+    <string name="command_success">Команда успешно выполнена</string>
+    <string name="command_error">Ошибка выполнения команды: %1$s</string>
+    <string name="exit_app">Выйти</string>
+    <string name="go_to_website">Перейти на сайт</string>
+    <string name="error_cannot_open_website">Ошибка при открытии сайта</string>
+    <string name="toast_error">Ошибка</string>
+    <string name="read_instruction">Прочитать инструкцию</string>
+    <string name="shizuku_error">Ошибка</string>
+    <string name="switch_to_russian">Переключить на русский</string>
+    <string name="switch_to_english">Переключить на английский</string>
+    <string name="webview_load_error">Ошибка загрузки страницы: %1$s</string>
+</resources>

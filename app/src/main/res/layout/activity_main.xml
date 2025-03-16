@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="0"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_logo" />
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/togglePermission"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:textAllCaps="true"
+        android:text="@string/shizuku_switcher"
+        style="@style/CustomMaterialSwitch"
+        app:trackTint="@color/track_color"
+        app:thumbTint="@color/thumb_color"
+        android:background="@drawable/custom_background_switch"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/readButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read_instruction"
+        style="@style/CustomMaterialButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/installButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/install"
+        style="@style/CustomMaterialButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/launchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launch"
+        style="@style/CustomMaterialButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/uninstallButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uninstall"
+        style="@style/CustomMaterialButton"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exitButton"
+            style="@style/CustomMaterialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit_app"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_constraintStart_toEndOf="@id/exitButton"
+            app:layout_constraintEnd_toStartOf="@id/openWebsiteButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/openWebsiteButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_website"
+            android:tint="@color/robot_color"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/go_to_website"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="UseAppTint" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

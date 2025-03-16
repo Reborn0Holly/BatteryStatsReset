@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="robot_color">#0c4da2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="track_color_enabled">#E5EEEEEE</color>
+    <color name="thumb_color_enabled">#FFFFFFFF</color>
+    <color name="track_color_disabled">#8CCCCCCC</color>
+    <color name="thumb_color_disabled">#9CE0E0E0</color>
+</resources>

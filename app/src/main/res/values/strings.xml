@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Battery Stats Reset</string>
+    <string name="install">Install</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="uninstall_success">Successfully uninstalled %1$s</string>
+    <string name="uninstall_failure">Failed to uninstall %1$s</string>
+    <string name="uninstall_error">Error: %1$s</string>
+    <string name="apk_install_success">Successfully installed %1$s</string>
+    <string name="apk_install_error">Failed to install %1$s</string>
+    <string name="apk_move_error">Error moving APK. Error code: %1$d</string>
+    <string name="shizuku_not_available">Shizuku is not available</string>
+    <string name="adb_command_error">Error executing ADB command: %1$s</string>
+    <string name="error_apk_not_found">Error: apk not found.</string>
+    <string name="shizuku_switcher">Shizuku service</string>
+    <string name="shizuku_not_running">Shizuku is not running</string>
+    <string name="permissions_granted">Permission granted</string>
+    <string name="permissions_denied">Permission not granted</string>
+    <string name="shizuku_or_permission_missing">Shizuku service is off or permission not granted</string>
+    <string name="launch">Launch</string>
+    <string name="app_not_found_error">Error: apk not install</string>
+    <string name="command_success">Command executed successfully</string>
+    <string name="command_error">Command execution error: %1$s</string>
+    <string name="exit_app">Exit app</string>
+    <string name="go_to_website">Go to website</string>
+    <string name="error_cannot_open_website">Error open site</string>
+    <string name="toast_error">Error</string>
+    <string name="read_instruction">Read instruction</string>
+    <string name="shizuku_error">Error Shizuku</string>
+    <string name="switch_to_russian">Switch to Russian</string>
+    <string name="switch_to_english">Switch to English</string>
+    <string name="webview_load_error">Loading site failed: %1$s</string>
+</resources>
