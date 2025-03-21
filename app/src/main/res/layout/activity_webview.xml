@@ -14,11 +14,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/languageToggleButton"
-        android:layout_width="wrap_content"
+        style="@style/CustomMaterialButton"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/switch_to_russian"
-        style="@style/CustomMaterialButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
