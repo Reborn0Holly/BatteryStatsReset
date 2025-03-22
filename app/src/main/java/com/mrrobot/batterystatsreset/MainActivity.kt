@@ -10,9 +10,9 @@ import rikka.shizuku.Shizuku
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.widget.ImageButton
 import androidx.browser.customtabs.CustomTabsIntent
+import androidx.core.net.toUri
 
 @Suppress("DEPRECATION")
 class MainActivity : ComponentActivity() {
@@ -97,7 +97,7 @@ class MainActivity : ComponentActivity() {
         val openWebsiteButton: ImageButton = findViewById(R.id.openWebsiteButton)
         openWebsiteButton.setOnClickListener {
             val websiteUrl = "https://4pda.to/forum/index.php?showtopic=943849&view=findpost&p=132524914"
-            val uri = Uri.parse(websiteUrl)
+            val uri = websiteUrl.toUri()
             try {
                 val customTabsIntent = CustomTabsIntent.Builder().build()
                 customTabsIntent.launchUrl(this, uri)

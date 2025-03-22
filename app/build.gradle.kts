@@ -5,11 +5,12 @@ plugins {
 
 android {
     namespace = "com.mrrobot.batterystatsreset"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.mrrobot.batterystatsreset"
         minSdk = 30
+        //noinspection OldTargetApi
         targetSdk = 34
         versionCode = 102
         versionName = "1.2"
